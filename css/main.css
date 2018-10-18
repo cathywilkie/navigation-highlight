@@ -1,17 +1,11 @@
-/*Typefaces: Georgia, Sigmar One
-Text sizes: 3rem, 1.875rem, 1.125rem, .75rem
-Colours: #2f2d13, #cc1465, #ffe500, #b20953,  #b2a212
-Line height: 1.5
-Paddings: .2em .5em .3em, 0 .75em, .75em
-Margins: .3em
-Corner radius: 4px*/
-
 html {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #fff;
   line-height: 1.5;
+  margin-top: 0;
   margin: 3em;
   font-family: Georgia, serif;
 }
@@ -43,7 +37,7 @@ img {
   width: 100%;
   max-width: 30em;
   margin-top: .5em;
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 

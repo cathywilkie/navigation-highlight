@@ -1,0 +1,95 @@
+/*Typefaces: Georgia, Sigmar One
+Text sizes: 3rem, 1.875rem, 1.125rem, .75rem
+Colours: #2f2d13, #cc1465, #ffe500, #b20953,  #b2a212
+Line height: 1.5
+Paddings: .2em .5em .3em, 0 .75em, .75em
+Margins: .3em
+Corner radius: 4px*/
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  margin: 3em;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+  padding: .2em 0;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  font-size: 3rem;
+  color: #b20953;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.875rem;
+  color: #b20953;
+}
+
+img {
+  width: 100%;
+  max-width: 30em;
+  margin-top: .5em;
+  display: inline-block;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: .2em .5em .3em;
+  margin: .1.75em;
+  background-color: #b2a212;
+  border-radius: 4px;
+}
+
+nav li a:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+p {
+  margin: 0 0 1.5em;
+  display: inline-block;
+  text-align: center;
+  max-width: 30em;
+  width: 100%;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 1em;
+}

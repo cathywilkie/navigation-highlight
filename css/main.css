@@ -35,11 +35,7 @@ h2 {
 
 img {
   width: 100%;
-  max-width: 30em;
-  margin-top: .5em;
-  margin-bottom: 1em;
   display: block;
-  text-align: center;
 }
 
 ul {
@@ -72,22 +68,19 @@ nav li a:hover {
   background-color: #b20953;
 }
 
-main p {
+main {
+  padding: 0 .75em;
   margin: 0;
-  margin-bottom: .3em;
+}
+
+main p {
   display: inline-block;
   color: #2f2d13;
   text-align: left;
-  max-width: 30em;
-  width: 100%;
 }
 
 main p span {
   font-weight: bold;
-}
-
-main {
-  margin: .75em;
 }
 
 small {
